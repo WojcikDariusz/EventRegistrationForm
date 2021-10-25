@@ -1,0 +1,19 @@
+{
+  "name": "brainhub",
+  "version": "1.0.0",
+  "description": "Programming task",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "npm start --prefix server",
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "install": "npm run install-client && npm run install-server",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "test"
+  },
+  "author": "Dariusz Wójcik",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
