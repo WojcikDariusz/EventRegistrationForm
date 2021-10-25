@@ -14,7 +14,7 @@ From main application directory type:
 npm run install
 ```
 ### Starting local mongodb server
-You should use your local mongoDB instance. Make sure that it's running before the next step.
+You should use your local mongoDB instance. It is very important to make sure that mongod process is running before the next step.
 
 ```bash
 mongod
