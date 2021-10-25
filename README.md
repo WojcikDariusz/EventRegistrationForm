@@ -26,3 +26,9 @@ From main application directory type:
 npm run dev
 ```
 
+### Running tests
+```bash
+npm run test
+```
+
+
