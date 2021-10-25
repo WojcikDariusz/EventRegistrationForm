@@ -1,0 +1,71 @@
+*, html {
+    margin:0;
+    padding:0;  
+}
+
+body {
+    background-color: rgb(231, 231, 231);   
+    margin:0
+}
+
+.container {
+    position: relative;
+    background-color: #fafafe;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20vh;
+    padding: 25px 20px 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.shortInputsContainer {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.header {
+    text-transform: uppercase;
+    font-family: 'roboto';
+    text-align: left;
+    vertical-align: middle;
+    line-height: 2em;
+    color: grey;
+    font-size: 1.5em;
+}
+
+div.wrapper {
+    height:70%;
+    width:40%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10%;
+    background-color: rgb(204, 201, 201);
+}
+
+div.formWrapper {
+    height: 90%;
+    margin: auto;
+    margin-bottom: 3%;
+    max-width:100%
+}
+
+div.message {
+    line-height: 2em;
+    text-transform: uppercase;
+    font-family: 'roboto';
+    font-size:0,7em;
+    text-align:center;
+    color: rgb(218, 132, 132);
+
+}
+
+input[type=text].datePicker {
+    width: 100%
+}
+
+

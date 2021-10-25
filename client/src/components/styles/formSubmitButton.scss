@@ -1,0 +1,24 @@
+div.submitButton {
+    background-color: rgb(91, 179, 214);
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 170, 218);
+    height: 2em;
+    margin-top: 15px;
+    
+    p {
+        text-align: center;
+        vertical-align: middle;
+        line-height: 2em;  
+        text-transform: uppercase;
+        cursor: pointer;
+        font-family: 'roboto';
+        font-weight: 500;
+        color: white;
+    }
+}
+
+.formButtonSubmitted {
+    background-color: rgb(159, 209, 230) !important;
+    border: 1px solid rgb(159, 209, 230) !important;
+}

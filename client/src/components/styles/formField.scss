@@ -1,0 +1,39 @@
+input[type=text], input[type=email] {
+   
+    padding: 12px 20px;
+    margin: 8px 0;
+    margin-bottom: 3px;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    border-top: 0px;
+    border-left: 0px;
+    border-right:0px;
+  }
+
+  input[type=email] {
+    width: 100%;
+  }
+
+  input[type=text]:focus, input[type=email]:focus {
+    outline: 1.5px solid rgb(81, 157, 219);
+  }
+
+  
+  .input-error {
+    border: 1px solid red !important;
+  }
+
+  .errorMsg {
+    font-family: 'roboto';
+    font-size: 0.7em;
+    color: red;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+
+div:nth-child(2) > input[type=text].shortInput {
+    float: right;
+}

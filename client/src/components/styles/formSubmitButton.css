@@ -1,0 +1,25 @@
+div.submitButton {
+  background-color: #5bb3d6;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #31aada;
+  height: 2em;
+  margin-top: 15px;
+}
+
+div.submitButton p {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'roboto';
+  font-weight: 500;
+  color: white;
+}
+
+.formButtonSubmitted {
+  background-color: #9fd1e6 !important;
+  border: 1px solid #9fd1e6 !important;
+}
+/*# sourceMappingURL=formSubmitButton.css.map */
