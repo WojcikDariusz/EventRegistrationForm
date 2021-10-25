@@ -11,7 +11,7 @@ App build with Node.js, React.js and mongoDB
 From main application directory type:
 
 ```bash
-npm run install
+npm install
 ```
 ### Starting local mongodb server
 You should use your local mongoDB instance. It is very important to make sure that mongod process is running before the next step.
@@ -28,7 +28,7 @@ npm run dev
 
 ### Running tests
 ```bash
-npm run test
+npm test
 ```
 
 
