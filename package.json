@@ -9,7 +9,7 @@
     "install-server": "cd server && npm install",
     "install": "npm run install-client && npm run install-server",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "test": "test"
+    "test": "cd client && npm run test"
   },
   "author": "Dariusz Wójcik",
   "license": "ISC",
