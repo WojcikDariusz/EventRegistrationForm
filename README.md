@@ -1,9 +1,9 @@
 # Event Registration Form
 App build with Node.js, React.js and mongoDB
 
-#Prerequisites
+### Prerequisites
 - NodeJS version => 14.15.3.
-- MongoDB version => 3.4
+- MongoDB version => 3.6
 
 ## Development
 
