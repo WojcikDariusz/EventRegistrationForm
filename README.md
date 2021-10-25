@@ -11,6 +11,7 @@ App build with Node.js, React.js and mongoDB
 From main application directory type:
 
 ```bash
+npm install
 npm run install
 ```
 ### Starting local mongodb server
