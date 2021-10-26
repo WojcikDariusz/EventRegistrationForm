@@ -27,8 +27,15 @@ npm run dev
 ```
 
 ### Running tests
+To see tests for client app from main application directory type:
 ```bash
 npm test
 ```
 
+To see tests for node.js server type:
+```bash
+cd server
+npm test
+npm run test:coverage
+```
 
