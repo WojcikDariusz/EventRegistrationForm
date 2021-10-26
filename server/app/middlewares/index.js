@@ -6,8 +6,9 @@
 
 "use strict";
 
+const validateRequest = require("./validateRequest")
 const checkEvent = require("./checkEvent");
 
 module.exports = {
-  checkEvent
+ validateRequest, checkEvent
 };

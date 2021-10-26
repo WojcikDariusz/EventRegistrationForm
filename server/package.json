@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon server.js",
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "test:coverage": "jest --coverage"
   },
   "author": "",
   "license": "ISC",

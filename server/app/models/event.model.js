@@ -9,8 +9,6 @@
 // Handling the user model definition
 const mongoose = require("mongoose");
 
-const timeStamp = new Date().toISOString().split('T')[0];
-
 const Event = mongoose.model(
   "Event",
   new mongoose.Schema({
