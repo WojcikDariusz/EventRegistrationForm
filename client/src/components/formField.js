@@ -6,6 +6,7 @@
 
 import React from "react"
 import "./styles/formField.css"
+import PropTypes from "prop-types"
 
 const FormField = (props) => {
   
@@ -20,6 +21,16 @@ const FormField = (props) => {
       <p className={'errorMsg'}>{props.error}</p>
     </div>
   );
+
+}
+
+FormField.propTypes = {
+  className: PropTypes.string,
+  error: PropTypes.string,
+  type: PropTypes.string,
+  name: PropTypes.string,
+  displayName: PropTypes.string
+
 }
 
 export default FormField;
